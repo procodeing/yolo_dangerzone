@@ -1,0 +1,41 @@
+@keyframes shiver {
+  0% {
+    transform: translate3d(-1px, 1px, 1px)
+  }
+  10% {
+    transform: translate3d(2px, -2px, 1px) skewY(-10deg)
+  }
+  20% {
+    transform: translate3d(-3px, 3px, 1px)
+  }
+  30% {
+    transform: translate3d(4px, -4px, 1px) skewY(10deg)
+  }
+  40% {
+    transform: translate3d(-5px, -5px, 1px)
+  }
+  50% {
+    transform: translate3d(6px, -6px, 1px)
+  }
+  60% {
+    transform: translate3d(-7px, 7px, 1px) skewX(10deg)
+  }
+  70% {
+    transform: translate3d(-8px, -8px, 1px)
+  }
+  80% {
+    transform: translate3d(-9px, 9px, 1px)
+  }
+  90% {
+    transform: translate3d(10px, -10px, 1px)
+  }
+  100% {
+    transform: translate3d(-11px, 11px, 1px)
+  }
+}
+
+.shiver{
+  animation-name: shiver
+}
+
+

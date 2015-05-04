@@ -25,6 +25,7 @@
   * `tada`
   * `wobble`
   * `jello`
+  * `shiver`
   * `bounceIn`
   * `bounceInDown`
   * `bounceInLeft`
@@ -123,7 +124,7 @@ http://api.jquery.com/one/
 $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
 ```
 
-[View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) on how to use Animate.css with jQuery here. 
+[View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) on how to use Animate.css with jQuery here.
 
 **Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
 
@@ -158,7 +159,8 @@ Next, run `grunt watch` to watch for changes and compile your custom builds. For
   "swing": true,
   "tada": true,
   "wobble": true,
-  "jello":true
+  "jello":true,
+  "shiver":true
 }
 ```
 
